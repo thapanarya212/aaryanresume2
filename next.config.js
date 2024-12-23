@@ -9,5 +9,9 @@ const nextConfig = {
     domains: ['images.unsplash.com'],
   },
 };
+module.exports = {
+  reactStrictMode: true,
+  // other options
+};
 
 module.exports = nextConfig;
